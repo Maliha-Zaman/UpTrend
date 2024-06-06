@@ -1,0 +1,92 @@
+.team .items {
+    transition: 0.5s;
+  }
+  .team .img {
+    position: relative;
+  }
+  .team img {
+    width: 100%;
+    height: 100%;
+  
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .overlay i {
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+    transition: 0.5s;
+  }
+  .team .details {
+    padding: 30px;
+    text-align: center;
+  }
+  .team .details h2 {
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  .team .details p {
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  .team .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+  }
+  .team .items:hover p {
+    color: #fff;
+  }
+  .team .items:hover .overlay {
+    opacity: 1;
+  }
+  .team .items:hover .overlay i:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .container.grid {
+      margin-left: 20%;
+  }
+  
+  /* .back {
+    background-image: url("/AuthInMern-Authentication-In-MERN/client/public/images/back.webp");
+  } */
+  .back2{
+    
+      background-image: url("./smiling-colleagues-office-talking.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100vh;
+      padding-top: 20%;
+      padding-right: 50px;
+      color: black;
+      text-align: center;
+         
+  
+  }
+  
+  .back2 h1 {
+    font-size: 100px;
+    font-weight: 400;
+  }
+  
+  
+  .marigin2 {
+    margin-top: 40.3%;
+  } 

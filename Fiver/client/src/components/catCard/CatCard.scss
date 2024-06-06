@@ -1,0 +1,55 @@
+
+.CartCategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #9ad5f632;
+}
+
+.catCard {
+  flex: 0 1 calc(25% - 20px); /* Adjust the width as per your design */
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 300px;
+  width: 250px;
+  margin: 30px;
+  border-radius: 15px;
+  margin: 50px;
+  .title {
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    // left: 60px;
+    text-align: center;
+    font-size:24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+
+  }
+}
+.catCard .title:visited{
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+.catCard img {
+  max-width: 100%;
+  height: auto;
+}
+.catCard {
+  transition: transform 0.3s;
+}
+
+.catCard:hover {
+  transform: scale(1.1);
+}
+
+// title:visited {
+//   color: #000; /* Set the desired color for visited links */
+//   text-decoration: none;
+// }
